@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyLevelUp</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
+        <link rel="icon" href="./images/favicon.png">
+    </head>
+    <body>
+        <img id="background" src="./images/background.png"/>
+        <img id="banner" src="./images/banner.png"/>
+            <div id="navbar">
+                <img id="topimg"src="./images/icon.png" onclick="topFunction()" title="Return To Top Of Page"/></a>
+                <div class="pull_right">
+                    <ul class="nav_items">
+                        <li class="dropdown">
+                            <a class="drop_toggle" href="#">Games</a>
+                            <ul class="dropdown_content">
+                                <li>
+                                    <a href="#" >Word Scramble</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Flashcard</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Counting</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Keyboard Typing</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li class="dropdown">
+                            <a class="drop_toggle" href="#">Menu Item 2</a>
+                            <ul class="dropdown_content">
+                                <li>
+                                    <a href="#" >Option 1</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Option 2</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Option 3</a>
+                                </li>
+                            </ul>
+                        </li> -->
+                        <li class="dropdown">
+                            <a class="drop_toggle" href="#">About Us</a>
+                            <ul class="dropdown_content">
+                                <li>
+                                    <a href="#" >Company</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#" >Team</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <main>
+            <div id="first"> 
+                <h1>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </h1>
+               
+            <!-- <img src="./images/kid_using_phone.jpg"/> -->
+            </div>
+                <table>
+                    <tr>
+                        <td>
+                            <h1> Word Scramble</h1>
+                            <h3>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </h3>
+                        </td>
+                        <td><div class="slideshow-container">
+                            <div class="mySlides1 fade">   
+                                <img src="./images/sc1.png"/>
+                            </div>
+                            <div class="mySlides1 fade">   
+                                <img src="./images/sc2.png"/>
+                            </div>
+                            <div class="mySlides1 fade">   
+                                <img src="./images/sc3.png"/>
+                            </div>
+                        </div>
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span style="display: none" class="dot" onclick="currentSlide(1)"></span> 
+                                <span style="display: none" class="dot" onclick="currentSlide(2)"></span> 
+                                <span style="display: none" class="dot" onclick="currentSlide(3)"></span> 
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="slideshow-container">
+                                <div class="mySlides2 fade">   
+                                    <img src="./images/fl1.png"/>
+                                </div>
+                                <div class="mySlides2 fade">   
+                                    <img src="./images/fl2.png"/>
+                                </div>
+                            </div>
+
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span style="display: none" class="dot" onclick="currentSlide(1)"></span> 
+                                <span style="display: none" class="dot" onclick="currentSlide(2)"></span> 
+                            </div>
+                        </td>
+                        <td>
+                            <h1>Flash Card</h1>
+                            <h3>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </h3>
+                        </td>
+                    </tr>
+                    <!-- <h3>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </h3>
+                    <h3>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </h3>
+                    <h3>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </h3> -->
+                </table>
+
+            <div class="about">
+                <h2>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </h2>
+            </div>
+            <div class="bottom">
+                    
+                    <footer>
+                        <p class="footertext">
+                            ® T.M. AM. MyLevelUp © 2019 AM. MyLevelUp Victoria, BC<br>
+                            <a href="#">Privacy Statement </a> 
+                            |
+                            <a href="#">Visitor Agreement</a> 
+                            |
+                            <a href="#">Accessibility Statement</a>
+                        </p>
+                    </footer> 
+                </div>
+        </main>
+        
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

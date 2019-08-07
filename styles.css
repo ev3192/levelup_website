@@ -1,0 +1,181 @@
+*{font-family: 'Pragati Narrow', sans-serif;}
+     
+body{margin: 0; margin-bottom: -20px;}
+
+main{background-image: url("./images/background.png"); background-size: cover;}
+
+.pull_right{
+    float:right;    
+    margin-top: 14px;
+}
+
+body img{
+    width: 100%;
+    max-height: 200px;
+}
+
+#banner{
+    max-width: 400px;
+    max-height: 400px; 
+    z-index: 3;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#background{
+    width: 100%;
+    z-index: 1;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a{
+    font-size: 30px;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.dropdown_content{
+    display:none;
+    list-style: none;
+    position: absolute;
+}
+
+.dropdown_content li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    background-color: yellow;
+}
+
+.dropdown_content li a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.drop_toggle {
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    padding: 0 40px;
+    text-decoration: none;
+  }
+
+.nav_items{
+    margin-top: 5px;
+}
+
+#navbar{
+    z-index: 20;
+    background-color: purple;
+    height: 100px;
+}
+
+#navbar img{
+    max-width: 100px;
+    max-height: 100%;
+}
+
+#navbar ul {
+    position: relative;
+    list-style-type: none;
+    padding: 8px;
+    margin: 0;
+}
+
+#navbar ul li{
+    position: relative;
+    padding-right: 10px;
+}
+
+#navbar ul li ul{
+    width: 100%;
+    margin-top: -8px;
+    -webkit-padding-start:0;
+    position: absolute;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+#first img{
+    opacity: 0.5;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer{
+    text-align: center;
+}
+table{
+    
+    padding: 30px;
+}
+td{
+    width: 50%;
+    border: 1px solid black;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
